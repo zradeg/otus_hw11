@@ -149,6 +149,7 @@ Docker-образ - это шаблон, на основе которого за
 
 
 5. Задание со звездочкой
+
 Аналогично заданию №1 собираю образы и отправляю их в docker hub:
 ```
 [root@hw11-otus vagrant]# docker build -t zradeg/nginx4php ./docker/nginx/
