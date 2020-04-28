@@ -183,7 +183,7 @@ b3bab3cf421c: Pushed
 latest: digest: sha256:9a11622cb9b85ae4f63b5c3c57bdc5c75d9994e67699415b604ca3b9e8a34600 size: 1153
  
  
- [root@hw11-otus vagrant]# docker build -t zradeg/phpfpm5 ./docker/php-fpm/
+[root@hw11-otus vagrant]# docker build -t zradeg/phpfpm5 ./docker/php-fpm/
 Sending build context to Docker daemon  25.6 kB
 Step 1/5 : FROM alpine:3.11
  ---> f70734b6a266
