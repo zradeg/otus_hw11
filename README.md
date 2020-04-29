@@ -219,8 +219,6 @@ services:
       context: ./docker/php-fpm
     networks:
       - nginx_phpfpm
-    ports:
-      - "9000:9000"
     volumes:
       - ./docker/php-fpm/php-fpm.conf:/etc/php5/php-fpm.conf
       - ./src:/var/www
@@ -230,7 +228,6 @@ services:
       context: ./docker/nginx
     ports:
       - "80:80"
-      - "443:443"
     volumes:
       - ./docker/nginx/etc-nginx/conf.d/:/etc/nginx/conf.d/
       - ./docker/nginx/etc-nginx/nginx.conf:/etc/nginx/nginx.conf
